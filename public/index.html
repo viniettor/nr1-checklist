@@ -728,8 +728,8 @@ function abrirOverlay() {
   const done = state.filter(Boolean).length;
   const total = data.length;
 
-  if (done < 5) {
-    alert(`Complete pelo menos 5 itens primeiro! Você marcou ${done} de ${total}.`);
+  if (done < 1) {
+    alert(`Complete pelo menos 1 itens primeiro! Você marcou ${done} de ${total}.`);
     return;
   }
 
